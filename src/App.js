@@ -7,10 +7,10 @@ import './App.css';
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "./WebGL_1/Build/webgl1.loader.js",
-    dataUrl: "./WebGL_1/Build/webgl1.data",
-    frameworkUrl: "./WebGL_1/Build/webgl1.framework.js",
-    codeUrl: "./WebGL_1/Build/webgl1.wasm",
+    loaderUrl: "./webgl1/Build/webgl1.loader.js",
+    dataUrl: "./webgl1/Build/webgl1.data",
+    frameworkUrl: "./webgl1/Build/webgl1.framework.js",
+    codeUrl: "./webgl1/Build/webgl1.wasm",
   })
   return (
     <div className="App">
